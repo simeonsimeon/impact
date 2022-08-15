@@ -1,4 +1,4 @@
-@media (min-width:360px){
+@media (max-width:360px) {
     .container{
         width: 360px;
     }
@@ -39,8 +39,8 @@
     .head-right ul li a{
         /* padding-left: 100px; */
     }
-    .head-left::after{
-        /* <i class="icofont-navigation-menu"></i> */
+    .head-left h2{
+        padding-left: 5px;
     }
     .head-left a{
         position: absolute;
@@ -78,6 +78,9 @@
 #her{
     /* position: relative; */
 }
+#hero .text-align-space {
+    position: relative;
+}
 #hero .fade-in{
     display: none;
 }
@@ -94,7 +97,7 @@
 #hero .fade-in{
     display:block;
     position: absolute;
-    top: 65%;
+    top: 300px;
     text-align: center;
 
 }
@@ -117,7 +120,7 @@
     font-size: 18px;
     border-radius: 50px;
     margin-top: 20px;
-    margin-left: -40px;
+    /* margin-left: -40px; */
 }
 #hero .fade-in a i{
     font-size: 30px;
@@ -129,8 +132,32 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #dou-box{
-   margin-top: 500px;
+   margin-top: 300px;
 }
+#dou-box .box-display > div{
+   width: 90%;
+   background-color: #008374;
+   margin: auto;
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   text-align: center;
+   margin-top: 20px;
+   box-shadow: 0 0 10px 0px rgb(24, 80, 43);
+}
+.box-display > div i{
+    font-size: 60px;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.box-display > div h3{
+    padding-bottom: 40px;
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 
 }
@@ -257,5 +284,48 @@
 .head-left a{
     display: none;
 }
+#hero .text-align-space{
+    display: flex;
+    /* justify-content: center; */
+}
+#hero .text-align-space > div{
+     width: 50%;
+}
+#hero .text-align-space .fade-in{
+    position: relative;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* display: flex;
+    flex-flow: column;
+    text-align: center; */
+}
+#hero .text-align-space .fade-out img{
+    height: auto;
+}
+.fade-in{
+    padding-top: 150px;
+    /* display: flex !important; */
+    /* flex-flow: column; */
+    text-align:left !important;
+
+}
+.fade-in h1{
+    /* font-family: "Montserrat", sans-serif; */
+    font-size: 48px !important;
+    /* color: red; */
+    margin-bottom: 60px;
+}
+.fade-in h1 p{
+    font-size: 24px !important;
+    font-family: "Raleway",sans-serif;
+    margin-top: 40px !important;
+    margin-left: 0px !important;
+    
+}
+.fade-in a{
+    text-decoration: none;
+}
+
+
 }
 
